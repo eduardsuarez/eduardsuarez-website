@@ -3,12 +3,12 @@ import { AiOutlineMail } from 'react-icons/ai'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 
-const Main = () => {
-    return (
+const Main = (): JSX.Element => {
+  return (
         <div className='w-full h-screen text-center'>
             <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
                 <div >
-                    <p className='uppercase text-xs tracking-widest text-gray-600 '>LET'S BUILD SOMETHING TOGETHER </p>
+                    <p className='uppercase text-xs tracking-widest text-gray-600 '>LETS BUILD SOMETHING TOGETHER </p>
                     <h1 className='py-2 text-gray-700 text-3xl'>
                         Hola, Soy <span className='text-[#5651e5]'>Eduard</span>
                     </h1>
@@ -35,13 +35,12 @@ const Main = () => {
                             <BsFillPersonLinesFill />
                         </div>
 
-
                     </div>
                 </div>
             </div>
 
         </div>
-    )
+  )
 }
 
 export default Main
