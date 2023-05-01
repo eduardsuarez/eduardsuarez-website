@@ -16,7 +16,7 @@ const Skills = (): JSX.Element => {
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                     <div className='m-auto'>
                         <Image
-                        src={image.url}
+                        src={image.url + `?timestamp=${new Date().getTime()}`}
                         width='64'
                         height='64'
                         alt={image.name}

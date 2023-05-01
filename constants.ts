@@ -8,7 +8,7 @@ export const imagesSkills: Image[] = [
   {
     name: 'HTML',
     size: '64',
-    url: '/../public/assets/skills/html.png'
+    url: '/../public/assets/skills/html5.png'
   },
   {
     name: 'CSS',
@@ -48,6 +48,6 @@ export const imagesSkills: Image[] = [
   {
     name: 'MongoDB',
     size: '64',
-    url: '/../public/assets/skills/mongoDB.png'
+    url: '/../public/assets/skills/mongo.png'
   }
 ]
